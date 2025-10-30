@@ -1,0 +1,107 @@
+:root{
+    --main-color:#24353F;
+    --text-color:#17A2B8;
+    --hover-color:#12899c;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.form-shadow {
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.75);
+}
+.txt-color{
+    color: var(--text-color);
+}
+.bg-main{
+    background-color: var(--main-color);
+    color: white;
+}
+.form-control::placeholder{
+    color: #c3c3c3;
+}
+.form-control{
+    border-color: #c3c3c3;
+}
+.form-control:focus {
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid rgb(81, 188, 255);
+    box-shadow: none;
+    outline: 0;
+}
+.submit-btn{
+    width: 100%;
+    text-align: center;
+    background-color: var(--main-color);
+    color: var(--hover-color);
+    border: 1px solid var(--hover-color);
+    padding: 7px 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    transition: .2s;
+}
+.submit-btn:hover{
+    color: white;
+    border-color: var(--text-color);
+    background-color: var(--text-color);
+    
+}
+.question{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.question .Link{
+    text-decoration: none;
+    color: white;
+    margin-left: 3px;
+}
+.question .Link:hover{
+    text-decoration: underline;
+
+}
+.Height{
+    height: 80vh;
+}
+
+#welcomeTag{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    padding: 48px;
+}
+.logoutBtn{
+    line-height: 24px;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid RGB(255, 193, 7);
+    color: #c3c3c3;
+    transition: .3s;
+    border-radius: 5px;
+    text-align: center;
+}
+.logoutBtn:hover{
+    background-color:RGB(255, 193, 7) ;
+    border-color: RGB(255, 193, 7);
+    color: white;
+}
+
+.logo-web{
+    font-size: 20px;
+    line-height: 30px;
+    padding: 5px 0;
+    font-weight: 500;
+
+}
+
+.navbar-toggler{
+    background-color: var(--hover-color);
+}
