@@ -18,6 +18,9 @@ body{
 .txt-color{
     color: var(--text-color);
 }
+.crs-pointer{
+    cursor: pointer;
+}
 .bg-main{
     background-color: var(--main-color);
     color: white;
@@ -105,3 +108,4 @@ body{
 .navbar-toggler{
     background-color: var(--hover-color);
 }
+

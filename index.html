@@ -17,9 +17,11 @@
     <div class="col-md-8 form-shadow">
         <form class="py-5 px-4 text-center txt-color">
             <h1 class="my-4">Smart Login System</h1>
-            <input class="form-control bg-main my-2" placeholder="Enter your email" type="text">
-            <input class="form-control bg-main mt-3 mb-4" placeholder="Enter your password" type="text">
-            <a href="pages/welcom-page.html" class="submit-btn d-block mt-4 ">Login</a>
+            <input class="form-control bg-main my-2" placeholder="Enter your email" type="text" id="inputEmail">
+            <input class="form-control bg-main mt-3 mb-4" placeholder="Enter your password" type="password" id="inputPass">
+            <p class="text-center text-danger d-none loginAlert">Incorrect email or password</p>
+            <p class="text-center text-danger d-none loginAlertInputs">All inputs are required</p>
+            <a class="submit-btn d-block mt-4 " id="loginBtn">Login</a>
             <p class="text-white mt-3 question">Don’t have an account? <a href="pages/sign-up.html" class="Link">Sign Up</a></p>
         </form>
     </div>
